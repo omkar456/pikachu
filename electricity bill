@@ -1,0 +1,11 @@
+cname=input('customer name')
+u=eval(input('enter number of units'))
+if u>500:
+    print("charges are 3000 + 10")    
+elif u>100 or u<200:
+    print("charges are 500 + 10")
+elif u>200 or u<300:
+    print("charges are 650 + 10")
+elif u>300 or u<500:
+    print("charges are 800 + 10")
+    
